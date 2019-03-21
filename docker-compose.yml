@@ -1,9 +1,11 @@
 version: '3.2'
 services:
   db:
+    container_name: postgres
     image: postgres
 
   web:
+    container_name: elixir
     build: ./Dockerfile
     volumes:
       - type: bind
