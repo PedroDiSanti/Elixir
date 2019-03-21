@@ -15,3 +15,7 @@ Elixir
 Postgres
 
   * `docker exec -it postgres bash`
+  
+## Elixir's interactive shell
+
+  * `iex -S project`
