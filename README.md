@@ -8,11 +8,11 @@ Command to create the docker machine for Postgres and Elixir
 
 ## Command to enter in container
 
-# Elixir
+### Elixir
 
   * `docker exec -it elixir bash`
   
-# Postgres
+### Postgres
 
   * `docker exec -it postgres bash`
   
