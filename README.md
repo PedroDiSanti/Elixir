@@ -1,21 +1,17 @@
-# Project
+# Project Elixir
 
-**TODO: Add description**
+## Creating Docker machine
 
-## Installation
+Command to create the docker machine for Postgres and Elixir
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `project` to your list of dependencies in `mix.exs`:
+`docker-compose up -d --build`
 
-```elixir
-def deps do
-  [
-    {:project, "~> 0.1.0"}
-  ]
-end
-```
+## Command to enter in Docker
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/project](https://hexdocs.pm/project).
+Elixir
 
+  `docker exec -it elixir bash`
+  
+Postgres
+
+  `docker exec -it postgres bash`
