@@ -13,9 +13,10 @@ services:
     container_name: elixir
     build: 
         context: ./Dockerfile
-    command: /bin/bash docker_start.sh
     volumes:
-      - .:/my_app
+      - type: bind
+        source: .
+        target: /app
     ports:
       - "4000:4000"
     depends_on:
